@@ -1,4 +1,4 @@
-function HtmlsynEnable()
+function! HtmlsynEnable()
   syntax region htmlcomment start="<!--" end="-->"
   hi htmlcomment ctermfg=green  guifg=green
   syntax region htmlStringa start="/\"/" end="/\"/"
